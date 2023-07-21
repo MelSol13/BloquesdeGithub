@@ -1,0 +1,40 @@
+.container{
+    background-color: lightgrey;
+    width: 580px;
+    height:650px;
+    margin: 80px;
+    padding: 5px;
+}
+
+.titulo{
+font-family: 'Lucida Sans';
+font-size: 45px;
+margin-left: 170px;
+}
+
+.section1,.section2,.section3{
+    width: 550px;
+    height: 180px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.section1{
+    background-color: lightskyblue;
+    justify-content: space-around;
+}
+
+.section2{
+background-color: rgb(221, 185, 191);
+justify-content: space-evenly;
+}
+
+.section3{
+background-color: white;
+justify-content: space-around;
+}
+
+.img{
+    height: 150px;
+}
